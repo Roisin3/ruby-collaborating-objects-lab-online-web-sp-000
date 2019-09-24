@@ -20,6 +20,10 @@ class Song
     artist.add_song(self)
   end
 
-
-
+  def new_by_filename(filename)
+    artist, song_name = filename.split(" - ")
+    name = song_name
+    artist_name = artist
+    artist
+    name
 end
