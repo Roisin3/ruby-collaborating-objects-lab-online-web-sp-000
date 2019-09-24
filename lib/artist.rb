@@ -6,5 +6,10 @@ class Artist
     @name = name
   end
 
+  def all
+    @@all = all
+  end
+
+
 
 end
