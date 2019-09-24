@@ -15,5 +15,10 @@ class Song
     @@all << self
   end
 
+  def artist_name
+    self.artist_name if artist
+  end
+    
+
 
 end
