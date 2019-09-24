@@ -24,6 +24,8 @@ class Song
     artist, song_name = filename.split(" - ")
     name = song_name
     artist_name = artist
+    artist
+    name
   end
 
 
